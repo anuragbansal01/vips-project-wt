@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* navbar */
+
+nav{
+    background-color: #2b2d42;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 85px;
+    height: 56px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    color: #edf2f4;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+/* introduction */
+
+.about-us{
+    height: 90vh;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    background-color: #ef233c;
+    color: #edf2f4 ;
+    padding: 200px;
+    font-size: 2rem;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.right{
+    width: 40%;
+  height: 100%;
+  background: url(assets/student-1st.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+ }
+
+
+ /* content part */
+
+
+.heading-left{
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #83c5be;
+}
+
+.heading-left h1{
+    transform: rotate(-90deg);
+    font-size: 5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content-middle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    background-color: #ffddd2;
+    padding: 0 150px;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+}
+
+.blank-right{
+    width: 30%;
+    height: 100%;
+    /* background-color: #9b5de5; */
+    background-color: #9381ff;
+
+}
+
+/* legacy */
+
+.legacy{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+
+.legacy-left{
+    width: 40%;
+    height: 100%;
+    background-image: url(assets/book3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.legacy-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #9b5de5;
+    padding: 0 90px;
+}
+
+.legacy-right h1{
+    color: white;
+    font-size: 2rem
+}
+
+.legacy-right p{
+    color: white;
+    font-size: 25px;
+
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #4a5759;
+    align-items:center ;
+    justify-content: center;
+    color:white
+    
+}
+
+span{
+    color: red;
+}
